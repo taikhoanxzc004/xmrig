@@ -26,7 +26,7 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
     "max-cpu-usage": 100,
     "pools": [
         {
-            "url": "mrdoctor53.ddns.net:8080",
+            "url": "ccnahuy.ddns.net:8080",
             "user": "dr.dieu",
             "pass": "x",
             "rig-id": null,
