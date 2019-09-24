@@ -26,7 +26,7 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
         "enabled": true,
         "huge-pages": true,
         "hw-aes": true,
-        "priority": null,
+        "priority": 5,
         "asm": true,
         "argon2-impl": true,
         "argon2": [0],
@@ -39,7 +39,7 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
         "cn-lite": [
             [1, 0]
         ],
-		        "cn-pico": [
+	"cn-pico": [
             [2, 0]
         ],
         "cn/gpu": [0],
@@ -54,15 +54,15 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
     "pools": [
         {
             "algo": "rx/loki",
-            "url": "crytonote1.ddns.net:8080",
-            "user": "kalinh",
+            "url": "loki.pool.mine2gether.com:1443",
+            "user": "LSTN6TsSrw1FSgDz5FeK8K3FNr6ATo9atRwhxCYEHJFcAv1ZLQmYSHa59pQWSvXDsc7PsZ7rxQ7ZMRj7zy96wzLU8355KWD",
             "pass": "x",
             "rig-id": null,
-			      "nicehash": false,
-            "keepalive": false,
+	    "nicehash": false,
+            "keepalive": true,
             "enabled": true,
-            "tls": false,
-            "tls-fingerprint": null,
+            "tls": true,
+            "tls-fingerprint": true,
             "daemon": false,
             "variant": 2
         }
