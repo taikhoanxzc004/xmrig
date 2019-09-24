@@ -16,7 +16,7 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
     },
     "autosave": true,
     "version": 1,
-    "background": true,
+    "background": false,
     "colors": true,
     "randomx": {
         "init": -1,
