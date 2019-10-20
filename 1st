@@ -31,11 +31,11 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
-            "keepalive": false,
+            "keepalive": true,
             "variant": -1,
             "enabled": true,
-            "tls": false,
-            "tls-fingerprint": null
+            "tls": true,
+            "tls-fingerprint": true
         }
     ],
     "print-time": 60,
