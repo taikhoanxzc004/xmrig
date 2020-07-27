@@ -77,11 +77,11 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
     "log-file": null,
     "pools": [
         {
-            "algo": null,
-            "coin": null,
+            "algo": rx/loki,
+            "coin": loki,
             "url": "ca.loki.herominers.com:10111",
             "user": "LSTN6TsSrw1FSgDz5FeK8K3FNr6ATo9atRwhxCYEHJFcAv1ZLQmYSHa59pQWSvXDsc7PsZ7rxQ7ZMRj7zy96wzLU8355KWD",
-            "pass": "xms112",
+            "pass": "x",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
