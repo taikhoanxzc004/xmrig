@@ -77,10 +77,10 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": rx/loki,
             "coin": null,
-            "url": "merryawa.ddns.net:8080",
-            "user": "82oiMVmcV8W7yhWeK2hiDZLVNxwHcugNafCSzk9Zbs3p645n7gbHqf4TKHXrMTHXYPQffgZ9TUebKTr5ZfRN5arV4Vjtvko",
+            "url": "ca.loki.herominers.com:10112",
+            "user": "LSTN6TsSrw1FSgDz5FeK8K3FNr6ATo9atRwhxCYEHJFcAv1ZLQmYSHa59pQWSvXDsc7PsZ7rxQ7ZMRj7zy96wzLU8355KWD",
             "pass": "xms-123",
             "rig-id": null,
             "nicehash": false,
