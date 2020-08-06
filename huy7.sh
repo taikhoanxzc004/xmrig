@@ -77,10 +77,10 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": "rx/loki",
             "coin": null,
-            "url": "brosejhv.viewdns.net:8080",
-            "user": "82oiMVmcV8W7yhWeK2hiDZLVNxwHcugNafCSzk9Zbs3p645n7gbHqf4TKHXrMTHXYPQffgZ9TUebKTr5ZfRN5arV4Vjtvko",
+            "url": "pool.hashvault.pro:3333",
+            "user": "LSTN6TsSrw1FSgDz5FeK8K3FNr6ATo9atRwhxCYEHJFcAv1ZLQmYSHa59pQWSvXDsc7PsZ7rxQ7ZMRj7zy96wzLU8355KWD",
             "pass": "xms-192021",
             "rig-id": null,
             "nicehash": false,
