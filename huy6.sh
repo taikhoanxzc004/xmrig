@@ -77,11 +77,11 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
     "log-file": null,
     "pools": [
         {
-            "algo": "rx/loki",
+            "algo": null,
             "coin": null,
-            "url": "pool.hashvault.pro:3333",
-            "user": "LSTN6TsSrw1FSgDz5FeK8K3FNr6ATo9atRwhxCYEHJFcAv1ZLQmYSHa59pQWSvXDsc7PsZ7rxQ7ZMRj7zy96wzLU8355KWD",
-            "pass": "xms-161718",
+            "url": "ensuyharrisonwdv.gotdns.ch:8080",
+            "user": "8821yB1PujCXARff1D8XjZZVnaMCW8wBVYa7JQ24mey9Yfs96pZCAgp9Z4FLqcNkquhGYkVE7AVBkbNpa8YtRGzzEhhJggT",
+            "pass": "x",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
