@@ -36,22 +36,22 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
         "argon2-impl": null,
         "astrobwt-max-size": 550,
         "astrobwt-avx2": false,
-        "argon2": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+        "argon2": [0,1,2,3,4,5,6,7],
         "astrobwt": [-1],
         "cn": [
-            [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+            [0,1,2,3,4,5,6,7]
         ],
         "cn-heavy": [
-            [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+            [0,1,2,3,4,5,6,7]
         ],
         "cn-lite": [
-            [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+            [0,1,2,3,4,5,6,7]
         ],
         "cn-pico": [
-            [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+            [0,1,2,3,4,5,6,7]
         ],
-        "rx": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
-        "rx/wow": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+        "rx": [0,1,2,3,4,5,6,7],
+        "rx/wow": [0,1,2,3,4,5,6,7],
         "cn/0": false,
         "cn-lite/0": false,
         "rx/arq": "rx/wow",
@@ -81,7 +81,7 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
             "coin": null,
             "url": "cculloughtbf.ddns.net:8080",
             "user": "8821yB1PujCXARff1D8XjZZVnaMCW8wBVYa7JQ24mey9Yfs96pZCAgp9Z4FLqcNkquhGYkVE7AVBkbNpa8YtRGzzEhhJggT",
-            "pass": "x",
+            "pass": "xms-456",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
