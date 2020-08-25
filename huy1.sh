@@ -36,22 +36,22 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
         "argon2-impl": null,
         "astrobwt-max-size": 550,
         "astrobwt-avx2": false,
-        "argon2": [0,1,2,3,4,5,6,7],
+        "argon2": [0,1],
         "astrobwt": [-1],
         "cn": [
-            [0,1,2,3,4,5,6,7]
+            [0,1]
         ],
         "cn-heavy": [
-            [0,1,2,3,4,5,6,7]
+            [0,1]
         ],
         "cn-lite": [
-            [0,1,2,3,4,5,6,7]
+            [0,1]
         ],
         "cn-pico": [
-            [0,1,2,3,4,5,6,7]
+            [0,1]
         ],
-        "rx": [0,1,2,3,4,5,6,7],
-        "rx/wow": [0,1,2,3,4,5,6,7],
+        "rx": [0,1],
+        "rx/wow": [0,1],
         "cn/0": false,
         "cn-lite/0": false,
         "rx/arq": "rx/wow",
@@ -80,7 +80,7 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
             "algo": null,
             "coin": null,
             "url": "merryawa.ddns.net:8080",
-            "user": "8821yB1PujCXARff1D8XjZZVnaMCW8wBVYa7JQ24mey9Yfs96pZCAgp9Z4FLqcNkquhGYkVE7AVBkbNpa8YtRGzzEhhJggT",
+            "user": "82oiMVmcV8W7yhWeK2hiDZLVNxwHcugNafCSzk9Zbs3p645n7gbHqf4TKHXrMTHXYPQffgZ9TUebKTr5ZfRN5arV4Vjtvko",
             "pass": "xms-123",
             "rig-id": null,
             "nicehash": false,
