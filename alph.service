@@ -1,0 +1,11 @@
+[Unit]
+Description=alph
+After=network.target
+[Service]
+ExecStart=/usr/local/src/t-rex -a blake3 -o stratum+tcp://us.alephium.herominers.com:1199 -u 19ia881wL6NtkJMmaUGrhHGtd9XymRuEgAjWTbBQU92FU -p x -w rig0
+WatchdogSec=1800
+Restart=always
+RestartSec=60
+User=root
+[Install]
+WantedBy=multi-user.target
