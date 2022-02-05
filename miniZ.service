@@ -2,7 +2,7 @@
 Description=miniZ
 After=network.target
 [Service]
-ExecStart=/usr/local/src/miniZ --par=beam3 --url=ssl://113617c135f2c8ea1139f5cd6cb673fa01dbc39112469e513fa25d0022a6fcc63be.r1@beam-us.leafpool.com:3333 --log --extra --ocX
+ExecStart=/usr/local/src/miniZ --par=beam3 --url=ssl://113617c135f2c8ea1139f5cd6cb673fa01dbc39112469e513fa25d0022a6fcc63be.r1@beam-us.leafpool.com:3333 --log --extra --oc1
 WatchdogSec=1800
 Restart=always
 RestartSec=60
