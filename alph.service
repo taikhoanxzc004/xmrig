@@ -2,7 +2,7 @@
 Description=alph
 After=network.target
 [Service]
-ExecStart=/usr/local/src/t-rex -a blake3 -o stratum+tcp://us.alephium.herominers.com:1199 -u solo:19ia881wL6NtkJMmaUGrhHGtd9XymRuEgAjWTbBQU92FU -p x -w rig0
+ExecStart=/usr/local/src/t-rex -a blake3 -o stratum+tcp://pool.woolypooly.com:3107 -u solo:19ia881wL6NtkJMmaUGrhHGtd9XymRuEgAjWTbBQU92FU -p x -w rig0
 WatchdogSec=1800
 Restart=always
 RestartSec=60
