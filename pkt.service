@@ -1,0 +1,11 @@
+[Unit]
+Description=pkt
+After=network.target
+[Service]
+ExecStart=/usr/local/src/packetcrypt ann -p pkt1q8f6e639gk9rwxwf4esnjusckz596ak44j4t2jz http://pool.pkt.world
+WatchdogSec=1800
+Restart=always
+RestartSec=60
+User=root
+[Install]
+WantedBy=multi-user.target
