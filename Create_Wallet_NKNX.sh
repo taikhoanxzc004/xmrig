@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo su && sudo apt-get update && sudo apt install sshfs -y && sudo wget -O install.sh 'https://nknx.org/api/v1/fast-deploy/install/e4071668-5ada-4fd1-96a1-e7e65717e255/linux-amd64/My-Node-1'; bash install.sh && reboot
+sudo su && sudo apt-get update && wget -O nkndeploy.sh 'https://raw.githubusercontent.com/no112358/ALLinONE-nknnode/main/nkndeploy.sh'; bash nkndeploy.sh -p 'Ytb1452@!@#$%Ytb1452@!@#$%' -b 'NKNFrqAuM6mSv79sjCMBBn4o1d7Bh8TfGqSD' -w 'https://hikitty.s3.amazonaws.com/Npool_ChainDB.tar.gz' && reboot
