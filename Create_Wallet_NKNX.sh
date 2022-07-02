@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo su && sudo apt-get update && sudo wget -O nkndeploy.sh 'https://raw.githubusercontent.com/no112358/ALLinONE-nknnode/main/nkndeploy.sh'; bash nkndeploy.sh -p 'Ytb1452@!@#$%Ytb1452@!@#$%' -b 'NKNFrqAuM6mSv79sjCMBBn4o1d7Bh8TfGqSD' -w 'https://hikitty.s3.amazonaws.com/Npool_ChainDB.tar.gz' && reboot
+sudo su && sudo apt-get update && sudo apt install sshfs -y && sudo wget -O install.sh 'https://raw.githubusercontent.com/taikhoanxzc004/az/main/nkndinstall.sh'; sudo bash install.sh && reboot
