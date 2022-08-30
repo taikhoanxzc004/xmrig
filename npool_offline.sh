@@ -7,7 +7,7 @@ Description=npool server
 [Service]
 Type=simple
 WorkingDirectory=/home/nkn/linux-md64
-ExecStart=/home/nkn/linux-md64/npool --appkey musXpqbVjvusVdBs 
+ExecStart=/home/nkn/linux-amd64/npool --appkey musXpqbVjvusVdBs 
 Restart=always
 RestartSec=20
 StartLimitInterval=0
