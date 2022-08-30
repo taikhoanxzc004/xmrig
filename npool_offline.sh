@@ -16,4 +16,4 @@ StartLimitInterval=0
 WantedBy=multi-user.target
 End-of-file
 
-systemctl daemon-reload && systemctl enable npool.service && systemctl start npool.service
+sudo systemctl daemon-reload && sudo systemctl enable npool.service && sudo systemctl start npool.service
